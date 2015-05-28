@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.eece380.summer2015.SignalsApp" >
+android:versionCode="4"
+android:versionName="Beta" >
+
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@drawable/signal"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme" >
+    <activity
+        android:name="com.eece380.summer2015.SignalsApp.src.ceu.HomeActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/home_label" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.eece380.summer2015.SignalsApp.src.ceu.SettingsActivity"
+        android:label="@string/global_settings_label" >
+        <intent-filter>
+            <action android:name="com.eece380.brittaney.signalsapp_380.src.ceu.SettingsActivity" />
+            <category android:name="android.intent.cetagory.PREFERENCE" />
+        </intent-filter>
+    </activity>
+
+    <service
+        android:name="com.eece380.summer2015.SignalsApp.src.ceu.BiopluxService"
+        android:enabled="true" />
+</application>
+
+</manifest>

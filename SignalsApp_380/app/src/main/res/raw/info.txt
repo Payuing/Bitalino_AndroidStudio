@@ -1,0 +1,15 @@
+
+Version 1.0 (BETA)<br>
+Copyright 2014<br><br>
+
+<b>Developed by David G Marquez</b><br>
+david.gonzalez.marquez@gmail.com<br>
+<b> by Carlos Marten</b><br>
+martencarlos@gmail.com<br>
+<b>and by Abraham Otero</b><br>
+abraham.otero@gmail.com
+
+
+Modified by Brittaney Geisler and Caleb Ng - April 2015 - UBC Capstone
+
+Modified by Brittaney Geisler - May 2015 - UBC EECE 380
