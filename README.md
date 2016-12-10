@@ -7,3 +7,6 @@ Original Source Code: David G Marquez @ https://github.com/DavidGMarquez/Bitadro
 Modified: Capstone Group 70 April 2015
 
 Modified: Brittaney Geisler May 2015
+
+Modified: Peiyu Cui July 2015
+
